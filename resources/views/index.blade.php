@@ -1,6 +1,8 @@
 @extends('layouts')
 @section('content')
-<!-- Form Modal -->
+<body class="index-page">
+
+   <!-- Form Modal -->
       <div class="modal fade modal-black" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -49,4 +51,40 @@
         </div>
       </div>
       <!--  End Modal -->
-        @endsection
+  <div class="wrapper">
+    <div class="page-header header-filter">
+      <div class="squares square1"></div>
+      <div class="squares square2"></div>
+      <div class="squares square3"></div>
+      <div class="squares square4"></div>
+      <div class="squares square5"></div>
+      <div class="squares square6"></div>
+      <div class="squares square7"></div>
+      <div class="container">
+        <div class="content-center brand" id="images">
+          <h1 class="h1-seo"><img width="450" src="{{url ('asset/assets/img/logo7.png')}}"></h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <h5><center>Welcome to the website <a rel="tooltip" title="Driver System V 1.1.0" data-placement="top" href="#">driver.simadamri.com</a> for analyzing the poor goodness of the DAMRI driver, <br>on this website you can find out the character of the DAMRI bus driver for each person. Please login to see. Enjoy!</center></h5>
+      </div>
+    </div>
+  </div>
+  @endsection
