@@ -86,5 +86,6 @@
           <h5><center>Welcome to the website <a rel="tooltip" title="Driver System V 1.1.0" data-placement="top" href="#">driver.simadamri.com</a> for analyzing the poor goodness of the DAMRI driver, <br>on this website you can find out the character of the DAMRI bus driver for each person. Please login to see. Enjoy!</center></h5>
       </div>
     </div>
+    </div>
   </div>
   @endsection

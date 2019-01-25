@@ -42,8 +42,8 @@
               <i class="fa fa-cogs d-lg-none d-xl-none"></i> Getting started
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="{{url ('/documentation')}}" class="dropdown-item">
-                <i class="tim-icons icon-paper"></i>Documentation
+              <a href="{{url ('/about')}}" class="dropdown-item">
+                <i class="tim-icons icon-paper"></i>About
               </a>
               <a href="index.php?content=helpdesk" class="dropdown-item">
                 <i class="tim-icons icon-single-02"></i>Helpdesk
@@ -60,9 +60,9 @@
     </div>
   </nav>
 
-  <div class="container">
+ 
     @yield('content')
-  </div>
+
    
     <footer class="footer">
       <div class="container" align="right">
