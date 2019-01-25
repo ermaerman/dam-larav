@@ -4338,15 +4338,15 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #051135;
   background-color: transparent;
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #525f7f;
-  background-color: #171941;
+  color: #051135;
+  background-color: #051135;
   border-color: #e3e3e3 #e3e3e3 #171941;
 }
 
@@ -4360,10 +4360,10 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
-.nav-pills .nav-link.active,
+.nav-pills .nav-link.active,  
 .nav-pills .show>.nav-link {
   color: #ffffff;
-  background-color: #e14eca;
+  background-color: #051135;
 }
 
 .nav-fill .nav-item {
@@ -10397,14 +10397,14 @@ a.text-darker:focus {
   margin: 4px 1px;
   border-radius: 0.4285rem;
   cursor: pointer;
-  background: #344675;
+  background: #051135;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675);
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675);
   background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675);
   background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
   background-size: 210% 210%;
   background-position: top right;
-  background-color: #344675;
+  background-color: #051135;
   transition: all 0.15s ease;
   box-shadow: none;
   color: #ffffff;
@@ -10503,8 +10503,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn:focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn.focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn:active,
 fieldset[disabled] .navbar .navbar-nav>a.btn.active {
-  background-color: #344675;
-  border-color: #344675;
+  background-color: #051135;
+  border-color: #051135;
 }
 
 .btn.btn-simple,
@@ -10522,8 +10522,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple:focus,
 .navbar .navbar-nav>a.btn.btn-simple:active,
 .navbar .navbar-nav>a.btn.btn-simple:not(:disabled):not(.disabled):active {
-  color: #344675;
-  border-color: #344675;
+  color: #051135;
+  border-color: #051135;
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none;
@@ -10531,7 +10531,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-simple.active,
 .navbar .navbar-nav>a.btn.btn-simple.active {
-  border-color: #344675 !important;
+  border-color: #051135 !important;
 }
 
 .btn.btn-simple.active:hover,
@@ -13685,7 +13685,7 @@ img {
   padding: 0.9375rem;
   width: 100%;
   z-index: 1050;
-  background: #1f367f;
+  background: #051135;
 }
 
 .navbar .photo {
